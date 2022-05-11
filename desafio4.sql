@@ -4,4 +4,4 @@ SELECT
 FROM SpotifyClone.historico_reproducoes h
 INNER JOIN SpotifyClone.usuarios u ON u.id_usuario = h.id_usuario
 GROUP BY usuario 
-ORDER BY usuario 
+ORDER BY usuario; 
